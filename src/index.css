@@ -18,10 +18,23 @@ body{
     background-size: cover;
 }
 
+input{
+    padding: 10px;
+    width: 250px;
+    border-radius: 8px;
+    border: none;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 17px;
+}
+
 /*agora serve para o desktop*/
 @media (width >= 768px){
     body{
         background-image: url('/foto1.jpg');
+    }
+    input{
+        width: 250px;
+        font-size: 18px;
     }
 }
 
