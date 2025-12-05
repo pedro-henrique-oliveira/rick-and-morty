@@ -1,8 +1,9 @@
+/* mobile first, celular primeiro */
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    text-align: center ;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -10,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url('/foto2.jpg');
+    background-image: url('/foto4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -26,12 +27,14 @@ input{
     font-size: 17px;
 }
 
-@media (width >= 768){
+/*agora serve para o desktop*/
+@media (width >= 768px){
     body{
-    background-image: url('./kame.jpg'); 
-  }
-      input{
+        background-image: url('/foto1.jpg');
+    }
+    input{
         width: 250px;
         font-size: 18px;
     }
 }
+
